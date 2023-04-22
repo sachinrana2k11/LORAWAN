@@ -33,8 +33,8 @@ void setup()
   pinMode(DEVICE_STATUS_LED_PIN,OUTPUT);
   dht.begin();
   blink_led(10);
+  InitModule();
   CheckModule();
-  //InitModule();
 }
 
 void loop()  
